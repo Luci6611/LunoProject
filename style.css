@@ -2,41 +2,43 @@
     padding: 0%;
     margin: 0%;
 } 
-   
+
+.swiper {
+    width: 600px;
+    height: 300px;
+    
+}
 
 header{
-    height: 800px;
+    height: 600px;
     background-image: url("./img/iniciofondo.png");
-        background-position: center;
-     background-repeat: no-repeat;
-      
-  
-        background-size: 100%;
-    
-    color: #Fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%; 
 }
+
 .icono__nav{
     position: absolute;
-   
+    top: 0;
     z-index: 20;
-    margin: 20px;
-
+    right: 0;
+    margin: 13px;
 }
 .icono__nav:hover{
     transform: rotate(180deg);
     transition: all .3s;
 }
 .nav__conteiner{
-    margin:  0;
+    margin: 0;
+    color: #Fff;
     width: 200px;
     text-align: center;
     background: linear-gradient(#2b127f,#160787,#092c61);
     border: 3px solid rgb(67, 107, 169);
-    
     height:100vh;
     padding: 30px;
     position: absolute;
-    left:-120px;
+    left:-130px;
     z-index: 10;
 
 }
@@ -46,24 +48,25 @@ main{
     background-color: #2c254f;
     color: #Fff;
 }
+
 footer{
- background-color: #48e;
+    background-color: #48e;
 }
 
 /* abrir nav */
 .nav__conteiner-abrir{
     position: absolute;
-   left: 0;
+    left: 0;
     z-index: 10;
     transition: all .2s;
-  
 }
+
 .nav__animacion{
     transform: rotate(250deg);
     transform: scale(80deg);
     color: #e3e3e3;
     font-size: 3rem;
     transition: .4s all ;
-    margin: 15px 100px;
+    margin: 8px 10px;
 }
 /* abrir nav */

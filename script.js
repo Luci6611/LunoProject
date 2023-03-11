@@ -8,3 +8,5 @@ botonNav.addEventListener("click",()=>{
 botonNav.addEventListener("click",()=>{
     botonNav.classList.toggle("nav__animacion")
 })
+
+/* Swiper carousel */
