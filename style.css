@@ -5,6 +5,7 @@
    
 body{
     font-family: arial;
+    
 }
 header{
     height: 1070px;
@@ -70,7 +71,7 @@ header img{
     margin:  0;
     width: 300px;
     text-align: center;
-    background: linear-gradient(#2b127f,#160787,#092c61);
+    background: linear-gradient(#361a9a,#423a74,#2e323a);
     border: 3px solid rgb(67, 107, 169);
     border-bottom: 20px solid #3a3939;
     height:100vh;
