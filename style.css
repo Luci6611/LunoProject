@@ -8,7 +8,7 @@ body{
     
 }
 header{
-    height: 1070px;
+    height: 760px;
     background-image: url("./img/iniciofondo.png");
         background-position: center;
      background-repeat: no-repeat;
@@ -21,25 +21,26 @@ header{
     position: absolute;
     font-family: arial;
     font-weight: bold;
-    box-shadow: 1px 2px 5px 1px #000;
- top: 600px;
+    box-shadow: 2px 2px 5px 1px #000;
+ top: 490px;
  left: 0;
  right: 15px;
  bottom: 0%;
  margin: auto;
-    width: 150px;
-    height: 60px;
-    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     text-align: center;
   text-decoration: none;
   color: #Fff;
-    padding: 5px;
-    background-color: rgb(96, 99, 103);
+    padding: 23px  0;
+  
 }
 .header__btn:hover{
-    background-color: #727171;
-    transform: scale(2);   
-    transition: all .5s;
+    background-color: #6e092b;
+    box-shadow: 2px 3px 5px 1px #d20a0a;
+    transform: scale(1.2);   
+    transition: all .3s;
 }
 .icono__nav{
     position: fixed;
@@ -71,9 +72,9 @@ header img{
     margin:  0;
     width: 300px;
     text-align: center;
-    background: linear-gradient(#361a9a,#423a74,#2e323a);
+    background: linear-gradient(#361a9a,#423a74,#20232a);
     border: 3px solid rgb(67, 107, 169);
-    border-bottom: 20px solid #3a3939;
+    border-bottom: 20px solid #3e3a48;
     height:100vh;
     padding: 30px;
     position: absolute;
