@@ -1,99 +1,107 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
-} 
-   
-body{
-    font-family: arial;
-    
 }
-header{
+
+body {
+    font-family: arial;
+
+}
+
+header {
     height: 760px;
     background-image: url("./img/iniciofondo.png");
-        background-position: center;
-     background-repeat: no-repeat;
-        background-size: 100%;
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
     color: #Fff;
 }
 
-.header__btn{  
+.header__btn {
     position: absolute;
     font-family: arial;
     font-weight: bold;
     box-shadow: 2px 2px 5px 1px #000;
- top: 490px;
- left: 0;
- right: 15px;
- bottom: 0%;
- margin: auto;
+    top: 490px;
+    left: 0;
+    right: 15px;
+    bottom: 0%;
+    margin: auto;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     text-align: center;
-  text-decoration: none;
-  color: #Fff;
-    padding: 23px  0;
-  
+    text-decoration: none;
+    color: #Fff;
+    padding: 23px 0;
+
 }
-.header__btn:hover{
+
+.header__btn:hover {
     background-color: #6e092b;
     box-shadow: 2px 3px 5px 1px #d20a0a;
-    transform: scale(1.2);   
+    transform: scale(1.2);
     transition: all .3s;
 }
-.icono__nav{
+
+.icono__nav {
     position: fixed;
-   background-color: #160787;
+    background-color: #160787;
 }
+
 .swiper {
     max-width: 100%;
     height: 300px;
 }
 
-header img{
-    width: 100%;  
+header img {
+    width: 100%;
 }
 
 
-.icono__nav{
+.icono__nav {
     position: absolute;
     top: 0;
     z-index: 20;
     right: 0;
     margin: 13px;
 }
-.icono__nav:hover{
+
+.icono__nav:hover {
     transform: rotate(180deg);
     transition: all .3s;
 
 }
-.nav__conteiner{
-    margin:  0;
+
+.nav__conteiner {
+    margin: 0;
     width: 300px;
     text-align: center;
-    background: linear-gradient(#361a9a,#423a74,#20232a);
+    background: linear-gradient(#361a9a, #423a74, #20232a);
     border: 3px solid rgb(67, 107, 169);
     border-bottom: 20px solid #3e3a48;
-    height:100vh;
+    height: 100vh;
     padding: 30px;
     position: absolute;
-    left:-420px;
+    left: -420px;
     z-index: 10;
 
 }
-.contenedor__anclas{
+
+.contenedor__anclas {
     height: 100%;
     display: flex;
     gap: 60px;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
-.ancla__nav{
+
+.ancla__nav {
     text-decoration: none;
     font-weight: 600;
-    color:#fff;
+    color: #fff;
     font-size: 1.9rem;
     background-color: #092c61;
     width: 100%;
@@ -101,72 +109,82 @@ header img{
     border-top: 1px solid #fff;
 
 }
-.ancla__nav:hover{
+
+.ancla__nav:hover {
     border-top: #0d0d10;
     background-color: #2c17cfb8;
     transition: all .3s;
 }
-main{
+
+main {
     background-color: #2c254f;
     color: #Fff;
 }
-.sobre-nosotros{
-    border:3px solid rgb(203, 50, 50) ;
+
+.sobre-nosotros {
+    border: 3px solid rgb(203, 50, 50);
     width: 100vw;
     height: 1100px;
     background-color: #070939;
 }
-.sobre-nosotros h1{
+
+.sobre-nosotros h1 {
     font-size: 4rem;
-   
+
 }
-.contenedor-sobren{
+
+.contenedor-sobren {
     display: flex;
     padding: 5%;
 }
-.text-sobrenosotros{
+
+.text-sobrenosotros {
     display: flex;
     flex-direction: column;
- 
     width: 45%;
     margin: 0 20px;
 }
-.text-sobrenosotros h2{
+
+.text-sobrenosotros h2 {
     font-size: 2.5rem;
 }
-.text-sobrenosotros p{
-    margin-bottom:100px ;
+
+.text-sobrenosotros p {
+    margin-bottom: 100px;
     font-size: 1.4rem;
 }
-.imagen-sobre-nosotros{
-   
+
+.imagen-sobre-nosotros {
+
     width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#servicios{
+
+#servicios {
     color: black;
 }
 
-footer{
+footer {
+    height: 10%;
     background-color: #48e;
 }
 
 /* abrir nav */
-.nav__conteiner-abrir{
+.nav__conteiner-abrir {
     position: fixed;
-   left: 0;
+    left: 0;
     z-index: 10;
     transition: all .2s;
 }
 
-.nav__animacion{
+.nav__animacion {
     transform: rotate(250deg);
     transform: scale(80deg);
     color: #e3e3e3;
     font-size: 3rem;
-    transition: .4s all ;
+    transition: .4s all;
     position: fixed;
     margin: 25px 250px;
 }
